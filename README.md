@@ -13,12 +13,12 @@ Cloud Development Course Backend Repository
   - [x] Response should be full array of products
   - [x] Endpoint should be integrated with FE
 
-  ### **Task 3. 2**
+### **Task 3. 2**
 
-  - [x] **Product By Id Lambda Function**
-    - [x] Create a Lambda function called `getProductsById`
-    - [x] Requested URL should be `/products/{productId}`
-    - [x] Response should be one product from an array of products
+- [x] **Product By Id Lambda Function**
+  - [x] Create a Lambda function called `getProductsById`
+  - [x] Requested URL should be `/products/{productId}`
+  - [x] Response should be one product from an array of products
 
 ### **Task 3. 3**
 
