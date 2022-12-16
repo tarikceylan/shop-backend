@@ -60,13 +60,21 @@ provider:
 
 functions:
   getProductsList:
-    handler: handler.getProductList
+    handler: api/getProductsList/getProductsList.handler
     #    The following are a few example events you can configure
     #    NOTE: Please make sure to change your handler code to work with those events
     #    Check the event documentation for details
     events:
       - http:
           path: products
+          method: get
+          cors:
+            origin: '*'
+  getProductsById:
+    handler: api/getProductsById/getProductsById.handler
+    events:
+      - http:
+          path: products/{id}
           method: get
           cors:
             origin: '*'

@@ -1,8 +1,8 @@
 'use strict';
 
-const mockData = require('./data/mock');
+const mockData = require('../../data/mock');
 
-module.exports.getProductList = async (event) => {
+module.exports.handler = async (event) => {
   return {
     statusCode: 200,
     headers: {
