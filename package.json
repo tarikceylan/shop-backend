@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tarikceylan/shop-backend/issues"
   },
-  "homepage": "https://github.com/tarikceylan/shop-backend#readme"
+  "homepage": "https://github.com/tarikceylan/shop-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1284.0"
+  }
 }
