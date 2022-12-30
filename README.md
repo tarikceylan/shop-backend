@@ -2,24 +2,29 @@
 
 Cloud Development Course Backend Repository
 
-## **Task 3**
+## **Task 4**
 
-### **Task 3. 1**
+### **Task 4. 1**
 
-- [x] **Product List Lambda Function**
+- [x] **DynamoDB**
 
-  - [x] Create a Lambda function called `getProductsList`
-  - [x] Requested URL should be `/products`
-  - [x] Response should be full array of products
-  - [x] Endpoint should be integrated with FE
+  - [x] Use AWS Console to create two tables in DynamoDB
+  - [x] Write a script to fill tables with test examples
 
-### **Task 3. 2**
+### **Task 4. 2**
 
-- [x] **Product By Id Lambda Function**
-  - [x] Create a Lambda function called `getProductsById`
-  - [x] Requested URL should be `/products/{productId}`
-  - [x] Response should be one product from an array of products
+- [x] **Configurations**
+  - [x] Extend `serverless.yaml` file with data about your database
+  - [x] Configure Lambda Environment Variables
+  - [x] Configure `getProductsList` lambda to list products from DynamoDB
 
-### **Task 3. 3**
+### **Task 4. 3**
 
-- [x] Commit all work to seperate branch
+- [x] **Create Product**
+  - [x] Create lambda function `createProduct`
+  - [x] Implement `createProduct` Logic
+
+### **Task 4. 4**
+
+- [x] **Update Repository**
+  - [x] Commit all your work to a seperate branch
